@@ -1,0 +1,21 @@
+{
+	"name": "SqlServer1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "MARS\\SQLEXPRESS",
+			"database": "AdventureWorks2022",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "Windows",
+			"userName": "MARS\\George Mullar",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI5ZGYwNzBhZC0xYThlLTQ2MzctYjViNy1iNzI1NGYxMzFhYjIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "selfhostintegrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
