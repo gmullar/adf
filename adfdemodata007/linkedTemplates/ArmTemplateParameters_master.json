@@ -1,0 +1,78 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfdemodata007"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"LS_Bulkupload_accountKey": {
+			"value": ""
+		},
+		"LS_Sinkstorage_accountKey": {
+			"value": ""
+		},
+		"Onpremis_ADF_password": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"SqlServer2_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://bulkdevdemodata001.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://devdemodatasink001.dfs.core.windows.net/"
+		},
+		"LS_Bulkupload_properties_typeProperties_url": {
+			"value": "https://bulkdevdemodata001.dfs.core.windows.net"
+		},
+		"LS_Sinkstorage_properties_typeProperties_url": {
+			"value": "https://devdemodatasink001.dfs.core.windows.net/"
+		},
+		"Onpremis_ADF_properties_typeProperties_server": {
+			"value": "MARS\\SQLEXPRESS"
+		},
+		"Onpremis_ADF_properties_typeProperties_database": {
+			"value": "AdventureWorks2022"
+		},
+		"Onpremis_ADF_properties_typeProperties_userName": {
+			"value": "MARS\\George Mullar"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "MARS\\SQLEXPRESS"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "AdventureWorks2022"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "MARS\\George Mullar"
+		},
+		"SqlServer2_properties_typeProperties_server": {
+			"value": "MARS\\SQLEXPRESS"
+		},
+		"SqlServer2_properties_typeProperties_database": {
+			"value": "AdventureWorks2022"
+		},
+		"SqlServer2_properties_typeProperties_userName": {
+			"value": "MARS\\George Mullar"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
